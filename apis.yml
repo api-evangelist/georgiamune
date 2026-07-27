@@ -1,8 +1,17 @@
 aid: georgiamune
 name: Georgiamune
-description: Georgiamune is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Georgiamune Inc. is a Gaithersburg, Maryland based biopharmaceutical company
+  developing first-in-class immunotherapies that reprogram immune signaling
+  pathways to rebalance the immune system and restore health across cancer and
+  autoimmune diseases. Built on a target-discovery platform, its pipeline of
+  immunomodulators spans clinical, preclinical, and discovery stages, including
+  the clinical-stage dual-functioning antibody GIM-122, the regulatory T-cell
+  (Treg) inhibitor GIM-531, and the Treg activator GIM-407, alongside additional
+  antibody and small-molecule programs. The company was surfaced as a
+  venture-backed portfolio company and profiled in the API Evangelist network;
+  it does not currently publish a public API, developer portal, or programmatic
+  interface.
 url: https://raw.githubusercontent.com/api-evangelist/georgiamune/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +19,46 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://georgiamune.com/favicon.ico
 tags:
 - Company
+- Biopharmaceutical
+- Immunotherapy
+- Oncology
+- Autoimmune
+- Drug Discovery
+- Biotechnology
+- Immunology
 apis: []
+common:
+- type: Website
+  url: https://georgiamune.com
+- type: Blog
+  url: https://georgiamune.com/news
+- type: DomainSecurity
+  url: security/georgiamune-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
